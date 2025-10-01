@@ -1,6 +1,6 @@
 # Marine Drive Biodiversity Monitoring Using Deep Learning
 
-🐟 This project focuses on monitoring marine biodiversity by detecting and classifying fish species using deep learning models.  
+This project focuses on monitoring marine biodiversity by detecting and classifying fish species using deep learning models.  
 It uses cropped fish images and applies **transfer learning (EfficientNet)** to classify species effectively.
 
 <img width="1675" height="807" alt="fish1" src="https://github.com/user-attachments/assets/e0d3a0e1-8c68-40ec-8dea-694d62100f8b" />
