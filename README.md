@@ -1,25 +1,34 @@
-# Fish-Accuracy-Simulation
+# Marine Drive Biodiversity Monitoring Using Deep Learning
 
-📊 A Jupyter Notebook project for simulating and analyzing fish accuracy using eph models.
+🐟 This project focuses on monitoring marine biodiversity by detecting and classifying fish species using deep learning models.  
+It uses cropped fish images and applies **transfer learning (EfficientNet)** to classify species effectively.
 
-## Requirements
+---
+
+## 📊 Dataset
+- **Format:** Cropped `.png` images  
+- **Structure:** Images are named with species labels.  
+- The notebook extracts species names from filenames and prepares them for training/validation.
+
+---
+
+## ⚙️ Requirements
 - Python 3.x
 - Jupyter Notebook
-- pandas
-- numpy
-- matplotlib
+- torch, torchvision
+- PIL
+- seaborn, matplotlib
+- pyngrok (for Colab sharing)
+- google.colab (if running in Google Colab)
 
-## Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YourUsername/Fish-Accuracy-Simulation.git
+Install requirements (if not using Colab):
+```bash
+pip install torch torchvision pillow seaborn matplotlib pyngrok
 
-2. Open the notebook:
-   ```bash
-   jupyter notebook Fish_acc_eph_sim_31.ipynb
+### 📈 Results
 
-3. Results
+Trained an EfficientNet-B0 model on cropped fish images.
 
- Accuracy trends across different eph simulations are visualized.
+Accuracy trends and performance visualizations provided.
 
- Plots demonstrate performance variations.
+Species-wise classification analysis included.
