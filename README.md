@@ -3,9 +3,14 @@
 🐟 This project focuses on monitoring marine biodiversity by detecting and classifying fish species using deep learning models.  
 It uses cropped fish images and applies **transfer learning (EfficientNet)** to classify species effectively.
 
+<img width="1675" height="807" alt="fish1" src="https://github.com/user-attachments/assets/e0d3a0e1-8c68-40ec-8dea-694d62100f8b" />
+
+<img width="1532" height="633" alt="fish2" src="https://github.com/user-attachments/assets/9140373d-8afc-49a4-970b-3521f92307b2" />
+
 ---
 
-## 📊 Dataset
+## 📊 Dataset: 
+- https://www.kaggle.com/datasets/markdaniellampa/fish-dataset
 - **Format:** Cropped `.png` images  
 - **Structure:** Images are named with species labels.  
 - The notebook extracts species names from filenames and prepares them for training/validation.
