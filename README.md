@@ -1,3 +1,11 @@
+# Project Ecosystem
+
+This repository is part of a three-tier fish identification system:
+
+- **[Deep Learning Model](https://github.com/Hetvi2211/Fish-Accuracy-Simulation)** - Core ML model for fish species identification and Similarity Search.
+- **[API Backend](https://github.com/unnatii14/fish-classifier-api)** - RESTful API serving the ML model
+- **[AquaVision Frontend](https://github.com/unnatii14/aquavision-flutter)** - User interface for fish identification
+
 # Marine Drive Biodiversity Monitoring Using Deep Learning
 
 This project focuses on monitoring marine biodiversity by detecting and classifying fish species using deep learning models.  
